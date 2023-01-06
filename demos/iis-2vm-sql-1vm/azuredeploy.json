@@ -88,9 +88,9 @@
     },
     "variables": {
         "virtualNetworkName": "[concat(parameters('envPrefixName'), 'Vnet')]",
-        "addressPrefix": "10.0.0.0/16",
-        "feSubnetPrefix": "10.0.0.0/24",
-        "dbSubnetPrefix": "10.0.2.0/24",
+        "addressPrefix": "10.200.0.0/16",
+        "feSubnetPrefix": "10.200.0.0/24",
+        "dbSubnetPrefix": "10.200.1.0/24",
         "feNSGName": "feNsg",
         "dbNSGName": "dbNsg",
         "sqlSrvDBName": "[concat(parameters('envPrefixName'), 'sqlSrv14')]",
